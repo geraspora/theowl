@@ -1,0 +1,82 @@
+/*
+ * The Owl will find you!
+ */
+
+body {
+  background-color: #353030;
+  color: #fff;
+  font-family: 'BebasNeueRegular', Sans;
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+header, footer {
+  text-align: center;
+}
+
+  header h1 {
+    font-family: "MolotRegular";
+    font-size: 5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 black, 2px 2px 0 #231E1E, 3px 3px 0 #231E1E, 4px 4px 0 #231E1E, 5px 5px 0 #231E1E, 6px 6px 0 #231E1E, 7px 7px 0 #231E1E;
+    margin: 52px 0;
+  }
+
+  header h2, #srsly {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 black, 2px 2px 0 #231E1E, 3px 3px 0 #231E1E, 4px 4px 0 #231E1E, 5px 5px 0 #231E1E, 6px 6px 0 #231E1E, 7px 7px 0 #231E1E;
+    margin: 32px 0;
+  }
+
+#main {
+  width: 520px;
+  margin: 0 auto;
+}
+
+  #main #itistheowl {
+    border: 10px solid #231E1E;
+  }
+
+#explanation {
+  width: 840px;
+  margin: 0 auto;
+}
+
+  #explanation #german, #explanation #english {
+    width: 360px;
+    float: left;
+    margin: 0 20px;
+  }
+
+  #explanation h1 {
+    font-size: 2em;
+    margin: 22px 0;
+    text-align: center;
+  }
+
+  #explanation p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 19px 0;
+    line-height: 1.3em;
+  }
+
+    #explanation p a, footer a, footer a {
+      color: #fff;
+    }
+
+      #explanation p a:hover, footer a:hover {
+        text-decoration: none;
+      }
+
+footer {
+  border-top: 1px solid #231E1E;
+  margin-top: 20px;
+  padding: 20px 0;
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
